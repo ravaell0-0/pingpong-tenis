@@ -104,7 +104,7 @@ class Ball {
         if (this.isPlayer && !this.playerHasMoved) {
           textSize(14);
           fill(54);
-          text("use the arrow keys to move!", this.x - padding, this.y - (this.height * 1.5));
+          text("Gunakan tanda panah untuk gerakin karakter", this.x - padding, this.y - (this.height * 1.5));
         }
       } else {
         noStroke();
